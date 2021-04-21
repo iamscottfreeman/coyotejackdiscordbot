@@ -1,6 +1,8 @@
 # Coyote Jack Discord Bot
 
-Checks Coyote Jack for new Red Dead Online dailies every hour until one is found
+Checks Coyote Jack for new Red Dead Online dailies every 30 minutes until one is found.
+
+Can manually check by issuing the command `!dailies` in a channel.
 
 ## Setup
 
@@ -11,4 +13,4 @@ Checks Coyote Jack for new Red Dead Online dailies every hour until one is found
 BOT_TOKEN=[your bot token]
 CHANNEL_ID=[channel where to post dailies]
 ```
-* Start the bot
+* Start the bot `npm start` or `node app.js`
