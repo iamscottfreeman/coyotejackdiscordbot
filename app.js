@@ -31,7 +31,7 @@ const getTodaysChallenges = (options = {}) => {
   });
 };
 
-const checkForDailiesJob = new cron.CronJob('0 0 * * * *', getTodaysChallenges);
+const checkForDailiesJob = new cron.CronJob('0 0,30 * * * *', getTodaysChallenges);
 const resetDailiesJob = new cron.CronJob('0 0 0 * * *', resetDailies);
 
 client.login(BOT_TOKEN);
