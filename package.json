@@ -1,0 +1,22 @@
+{
+  "name": "coyotejackdiscordbot",
+  "version": "1.0.0",
+  "description": "Checks Coyote Jack for new dailies every hour until one is found",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "red dead online",
+    "coyote jack",
+    "discord"
+  ],
+  "author": "Scott Freeman <email@scottfreeman.net>",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
