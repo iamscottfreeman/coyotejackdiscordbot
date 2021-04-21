@@ -25,6 +25,8 @@ const getTodaysChallenges = (options = {}) => {
     if (response.ok) {
       message(url);
       hasTodayDailies = true;
+    } else {
+      if (options.force) message('No dailies guide for today yet.');
     }
   });
 };
