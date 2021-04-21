@@ -13,4 +13,5 @@ Can manually check by issuing the command `!dailies` in a channel.
 BOT_TOKEN=[your bot token]
 CHANNEL_ID=[channel where to post dailies]
 ```
+* Run `npm install`
 * Start the bot `npm start` or `node app.js`
